@@ -51,6 +51,9 @@ signinBtn.addEventListener('click', function(){
      let user;
 
      signupSubmit.addEventListener('click',function(){
+               if(Upname.value=='' || UpEmail.value=="" || Uppassword==''){
+                 return alert('please put values')
+               }
              for(i=0 ; i< users.length ;i++){
         
                      if(Upname.value == users[i].name ){
