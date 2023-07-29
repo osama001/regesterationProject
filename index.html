@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>sign up </title>
+
+    
+</head>
+
+<body>
+
+    <div class="container mx-auto px-5 my-5  signupForm ">
+             <div class="inner  text-center w-75 mx-auto p-4  ">
+                   <h1 class="my-5 headertext">Smart Login System
+                  </h1>
+                     <div class="form m-4 text-center " >
+                     <input type="text" name="userEmail" required id="Upname" class="form-control my-2" placeholder="enter your name must have more than 3 char">
+                      <input type="email" name="userEmail" required id="UpEmail" class="form-control my-2" placeholder="enter your email must have @">
+                      <input type="password" name="userEmail" required id="Uppassword" class="form-control my-2" placeholder="enter your password must have uppercase letter">
+                      <button class="w-100 btn btn-success signup" id="signupSubmit">sign up </button>
+                     </div>
+                     <p class="text-white">You have an account? <span href="./signin.html" class="anchor" id="goTsignin">Signin</span></p>
+             </div>
+
+    </div>
+
+    <div class="container mx-auto px-5 my-5  signinForm">
+             <div class="inner  text-center w-75 mx-auto p-4  ">
+                   <h1 class="my-5 headertext">Smart Login System
+                  </h1>
+                     <div class="form m-4 text-center ">
+                   
+                      <input type="email" name="userEmail" id="userEmail" class="form-control my-2 logEmail" placeholder="enter your email">
+                      <input type="password" name="userEmail" id="userpassword" class="form-control my-2 logPass " placeholder="enter your password">
+                      <button class="w-100 btn btn-success signup" id="signin">sign in </button>
+                     </div>
+                     <p class="text-white">You don't have an account? <span href="./signin.html" class="anchor" id='goTsignup'>Signup</span></p>
+             </div>
+
+    </div>
+
+    <div id="displaying" class="fs-1 text-center text-danger inner justify-content-between px-5 py-3 "> 
+        <h id="displayingUser" > </h>
+        <button class="btn btn-danger" id="signOut"> sign out </button>
+    </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

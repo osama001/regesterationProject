@@ -1,0 +1,51 @@
+body{
+    background-color: #24353F   ;
+}
+.inner{
+    background-color: #24353F;
+
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+ 
+
+}
+.form-control{
+    background-color: transparent;
+    color: #fff;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: #fff;
+}
+.form-control::placeholder{
+ 
+    color: #B6B6A7;
+}
+.headertext{
+    color: #17A2B8;
+}
+.anchor{
+    color: white;
+    text-decoration: none;
+}
+.anchor:hover{
+    color: white;
+    text-decoration: underline;
+}
+.signup{
+    background-color: transparent;
+    border: #17A2B8 1px solid;
+}
+.signup:hover{
+    background-color: #17A2B8;
+   
+}
+#displaying{
+    display: none;
+}
+#h1{
+    display: none;
+}
+.signupForm {
+    display: none;
+}
